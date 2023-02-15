@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "project_tools",
+  "info": {
+    "singularName": "project-tool",
+    "pluralName": "project-tools",
+    "displayName": "Project Tool"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "judul": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::project.project",
+      "mappedBy": "project_tools"
+    }
+  }
+}
