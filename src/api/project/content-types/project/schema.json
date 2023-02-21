@@ -51,6 +51,10 @@
       "relation": "manyToOne",
       "target": "api::project-type.project-type",
       "inversedBy": "projects"
+    },
+    "tautan": {
+      "type": "string",
+      "required": false
     }
   }
 }

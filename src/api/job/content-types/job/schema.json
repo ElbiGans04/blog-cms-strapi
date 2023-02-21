@@ -4,7 +4,8 @@
   "info": {
     "singularName": "job",
     "pluralName": "jobs",
-    "displayName": "Job"
+    "displayName": "Job",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -29,6 +30,10 @@
     },
     "sampai": {
       "type": "date"
+    },
+    "tautan": {
+      "type": "string",
+      "required": true
     }
   }
 }

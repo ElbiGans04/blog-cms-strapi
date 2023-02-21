@@ -33,11 +33,42 @@
       "required": true
     },
     "profile": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "tentangSayaHeader": {
+      "type": "string",
+      "required": true
+    },
+    "kontakHeader": {
+      "type": "string",
+      "required": true
+    },
+    "riwayatPekerjaanHeader": {
+      "type": "string",
+      "required": true
+    },
+    "riwayatProjek": {
+      "type": "string"
+    },
+    "haloHeader": {
+      "type": "string",
+      "required": true
+    },
+    "github": {
+      "type": "string",
+      "required": true
+    },
+    "linkedin": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
       "required": true
     }
   }
