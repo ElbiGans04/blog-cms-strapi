@@ -55,6 +55,12 @@
     "tautan": {
       "type": "string",
       "required": false
+    },
+    "project_platform": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::project-platform.project-platform",
+      "inversedBy": "projects"
     }
   }
 }

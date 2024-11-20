@@ -7,13 +7,15 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "ngrok": "ngrok"
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.3.4",
     "@strapi/plugin-users-permissions": "4.3.4",
     "@strapi/strapi": "4.3.4",
     "axios": "^1.3.2",
+    "ngrok": "^5.0.0-beta.2",
     "pg": "8.6.0"
   },
   "author": {
